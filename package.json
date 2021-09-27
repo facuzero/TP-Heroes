@@ -1,0 +1,14 @@
+{
+  "name": "micro-desafio-html",
+  "version": "1.0.0",
+  "description": "micro desafio de playground utilizando html",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "facuzero",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
