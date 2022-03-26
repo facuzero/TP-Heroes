@@ -3,7 +3,7 @@ const express=require('express')//Require express
 const app=express();//Asigno app a express
 const path=require('path')//Requiero path
 //let pagina=require('./modulos varios/modulos.js') //variable para usar en el modulo
-app.use(express.static('DH-Heroes/public/img'));//Utilizo esa ruta para indicar el origen de las imagenes
+app.use(express.static("DH-Heroes/public/img"));//Utilizo esa ruta para indicar el origen de las imagenes
 
                 //Inicio de servidor
 app.listen(3030,console.log("Servidor levantado con express"))//Levanto servidor local con app.listen
